@@ -1,0 +1,10 @@
+{
+  "project_name": "data_project",
+  "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+  "package_name": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+  "author": "DridrM",
+  "description": "short project description",
+  "python_version": "3.12",
+  "initial_version": "0.1.0",
+  "_copy_without_render": [".github/workflows/*.yaml"]
+}
