@@ -1,0 +1,19 @@
+name: pytorch-test
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python={{cookiecutter.python_version}}
+  - pytorch
+  - pytorch-cuda={{cookiecutter.cuda_version}}
+  - torchaudio
+  - torchvision
+  - ipykernel
+  - black
+  - isort
+  - pytest
+  - pre-commit
+  - pytest-cov
+  - flake8
+prefix: ~/miniconda3/envs/{{cookiecutter.conda_env_name}}
