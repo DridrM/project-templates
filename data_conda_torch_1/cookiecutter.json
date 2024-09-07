@@ -5,7 +5,7 @@
   "author": "DridrM",
   "description": "short project description",
   "python_version": ["3.10", "3.11", "3.12"],
-  "cuda_version": "12.1",
+  "cuda_version": ["11.8", "12.1", "12.4"],
   "initial_version": "0.1.0",
   "conda_env_name": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}-env",
   "_copy_without_render": [".github/workflows/*.yaml"]
