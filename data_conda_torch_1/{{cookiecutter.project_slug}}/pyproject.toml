@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "{{cookiecutter.package_name}}"
+version = "{{cookiecutter.initial_version"
 requires-python = "^{{cookiecutter.python_version}}"
-dynamic = ["version", "dependencies"]
 authors = [{name = "{{cookiecutter.author}}"}]
 description = "{{cookiecutter.description}}"
 readme = "README.rst"
