@@ -1,12 +1,10 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "{{cookiecutter.project_slug}}"
-version = "{{cookiecutter.initial_version}}"
+name = "{{cookiecutter.package_name}}"
 requires-python = "^{{cookiecutter.python_version}}"
-dependencies = []
 dynamic = ["version", "dependencies"]
 authors = [{name = "{{cookiecutter.author}}"}]
 description = "{{cookiecutter.description}}"

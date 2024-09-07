@@ -1,4 +1,4 @@
-name: pytorch-test
+name: {{cookiecutter.conda_env_name}}
 channels:
   - defaults
   - pytorch
