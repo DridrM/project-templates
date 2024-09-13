@@ -1,4 +1,4 @@
-sources = {{cookiecutter.project_slug}}
+sources = {{cookiecutter.package_name}}
 
 .PHONY: test format lint unittest coverage pre-commit clean
 
